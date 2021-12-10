@@ -11,6 +11,7 @@
 - try to use variable and function labels that accurately reflect the purpose.
 
 #### good example 😊
+```bash
 --project
     |-OlympicExploration.ipynb
     |-data
@@ -23,12 +24,14 @@
     |   |-DataRemapping.py
     |   ...etc
     |
+ ```
 
  - heirarchical organization of files.
  - useful and intuitive labels
  - code modularity, simplifying the presentation on the notebook.
 
 #### bad example 😛
+```bash
 --project
     |-Untiled 1.ipynb 
     |-Untiled 2.ipynb 
@@ -36,6 +39,7 @@
     |-participants.csv
     |-djfkdjfj.csv
     ...etc
+```
 
 
  - lack of organization and meaningless file labels (e.g. Untitled 1.ipynb, x1.py)
