@@ -7,13 +7,17 @@
 ## basic project structure
 ### In order to make the project source more modular and easier to work with, the following protocols should be applied.
 - keep the data files and the source code in separate folders, it is recommended to organize hierarchically when possible.
-- separate the code base into a notebook and .py files, the notebook should have a clean and concise presentation of the project.
+- separate the code base into notebooks and .py files, the notebook should have a clean and concise presentation of the project.
 - try to use variable and function labels that accurately reflect the purpose.
+- each notebook should tell a story, so it is important that they maintain a clean and concise presentation.
+- .py files are useful for defining functions useful for data pipelining,transformation and other tasks.
 
 #### good example 😊
 ```bash
 --project
     |-OlympicExploration.ipynb
+    |-ParticipationsByCountry.ipynb
+    |-ParticipantsHealth.ipynb
     |-data
     |   |-athlete_events.csv
     |   |-participants.csv
@@ -34,7 +38,6 @@
 ```bash
 --project
     |-Untiled 1.ipynb 
-    |-Untiled 2.ipynb 
     |-athlete_events.csv
     |-participants.csv
     |-djfkdjfj.csv
