@@ -89,6 +89,5 @@ We explore all those research questions in the notebook
 - We visualized data when needed to help pass through the information to the reader / viewer in an easier to digest way.
 - All the data and in detail implementations of steps taken to reach research questions, exploring dataset, imputation techniques used are all mentioned in the notebook markdown
 
-That marks the end of this ReadMe file and project overview.
-
+#### This is the end of this readme file. I hope you enjoyed and...
 #### Most importantly, code n' chill! 🙆 💻 ☕️
