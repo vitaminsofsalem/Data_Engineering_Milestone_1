@@ -83,12 +83,12 @@ We explore all those research questions in the notebook
 
 #### General Description of steps taken in the project
 
-As mentioned above, we first started by describing and seeing what the data is like
-After which we realized that there are null values in the dataset and proceed to impute the dataset
-After imputing / cleaning the dataset, we proceed to explore our research questions
-We visualized data when needed to help pass through the information to the reader / viewer in an easier to digest way.
-All the data and in detail implementations of steps taken to reach research questions, exploring dataset, imputation techniques used are all mentioned in the notebook markdown
+As mentioned above, we first started by describing and seeing what the data is like:
+-After which we realized that there are null values in the dataset and proceed to impute the dataset
+-After imputing / cleaning the dataset, we proceed to explore our research questions
+-We visualized data when needed to help pass through the information to the reader / viewer in an easier to digest way.
+-All the data and in detail implementations of steps taken to reach research questions, exploring dataset, imputation techniques used are all mentioned in the notebook markdown
 
-- That marks the end of this ReadMe file and project overview.
+That marks the end of this ReadMe file and project overview.
 
 #### Most importantly, code n' chill! 🙆 💻 ☕️
