@@ -17,9 +17,18 @@ def weight_imputer(dataset, average_weight):
 def age_imputer(dataset, average_age): 
     dataset['Age'].fillna(average_age, inplace=True)
 
-def medal_imputer(dataset):
-    dataset['Medal'].fillna('No_Medal', inplace=True)
+def arbitrary_value_imputer(dataset, column, value):
+    dataset[column].fillna(value, inplace=True)
 
+def notes_imputer(noc_df):
+    noc_df['notes'].fillna('region_is_noc', inplace=True)
+
+def region_imputer(dataset, imputer, imputing):
+    for row in dataset.index:
+        if(dataset[imputing].isna()[row]):
+            imputer_value = dataset[imputer][row]
+            dataset[imputing].fillna(imputer_value, inplace=True)
+        
 def get_nan_values_percentage(df):
     info = {}
     for col in df:
